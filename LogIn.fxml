@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="350.0" styleClass="bodybg" stylesheets="@backgroundphoto.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LogController">
+   <children>
+      <TextField fx:id="accountTextField" alignment="CENTER" layoutX="139.0" layoutY="74.0" />
+      <TextField fx:id="passwordTextField" alignment="CENTER" layoutX="139.0" layoutY="111.0" onKeyPressed="#keyPressed" onKeyTyped="#keyTyped" />
+      <Label alignment="CENTER" layoutX="68.0" layoutY="78.0" text="Account" />
+      <Label alignment="CENTER" layoutX="65.0" layoutY="115.0" text="Password" />
+      <Button alignment="CENTER" layoutX="153.0" layoutY="152.0" mnemonicParsing="false" onAction="#logInPressed" opacity="0.7" stylesheets="@buttonfirst1.css" text="Log In" />
+      <Button alignment="CENTER" layoutX="218.0" layoutY="216.0" mnemonicParsing="false" onAction="#registerPressed" opacity="0.7" stylesheets="@buttonfirst1.css" text="Go Register" />
+      <Label alignment="CENTER" layoutX="46.0" layoutY="220.0" text="Haven't have an account yet?" />
+      <Button layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#returnClicked" opacity="0.7" stylesheets="@buttonfirst1.css" text="Return" />
+   </children>
+</AnchorPane>

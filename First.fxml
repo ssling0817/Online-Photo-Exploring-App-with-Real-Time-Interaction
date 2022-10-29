@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane hgap="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" styleClass="bodybg" stylesheets="@backgroundfirst.css" vgap="8.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FirstController">
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#editPressed" rotate="-1.0" styleClass="example_f" stylesheets="@buttonfirst1.css" text="EDIT" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+         <font>
+            <Font name="Book Antiqua Bold" size="21.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="100.0" left="30.0" />
+         </GridPane.margin>
+      </Button>
+      <Button maxHeight="100.0" maxWidth="130.0" mnemonicParsing="false" onAction="#uploadPressed" rotate="2.0" stylesheets="@buttonfirst1.css" text="Home Page" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+         <font>
+            <Font name="Book Antiqua Bold" size="25.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="50.0" top="60.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+   </padding>
+</GridPane>
