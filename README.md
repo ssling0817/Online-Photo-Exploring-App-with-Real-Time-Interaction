@@ -4,6 +4,7 @@ interact with others in real time, using JAVA, Scene Builder, and MySQL.
 Utilized following, hashtag, and personal networks to customize features with user categorization.
 
 This project uses Model-View-Controller framework.
+
 ```
 • Model (.java): Manage data.
 • View (.fxml): create the GUI.
